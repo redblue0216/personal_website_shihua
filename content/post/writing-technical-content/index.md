@@ -1,10 +1,22 @@
 ---
 title: Writing technical content in Markdown
-date: 2019-07-12
+date: 2023-02-10
 math: true
 image:
   placement: 2
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+# 用于管理文档，工作-技术记录，学习-数学、概率统计、计算机、其他，生活-美食、旅游
+authors:
+  - admin
+  - wowchemy
+
+tags:
+  - 工作
+  - 技术记录
+
+categories:
+  - 工作
+  - 技术记录
 ---
 
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.

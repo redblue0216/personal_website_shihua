@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-02-10
 type: landing
 
 sections:
@@ -91,9 +91,9 @@ sections:
               * 工程方面
                 * 算法全生命周期套装Seed
               * 算法方面
-                * 综合能源管理系统[Balengy(包括功率预测算法模块、负荷预测算法模块、虚拟电厂算法模块、电力交易算法模块、气象预报算法模块)]
+                * 综合能源管理系统 [Balengy(包括功率预测算法模块、负荷预测算法模块、虚拟电厂算法模块、电力交易算法模块、气象预报算法模块)]
                 * 低碳管理系统 [NeutralC(包括交通流模拟算法模块、碳排放计算模块)]
-                * 其他非重点项目(包括用电客户画像系统、BI 系统、气象减排系统)]
+                * 其他非重点项目 [(包括用电客户画像系统、BI 系统、气象减排系统)]
 
         - title: 中级算法工程师
           company: 平安科技有限公司
@@ -108,17 +108,25 @@ sections:
               * 隶属宏观竞技研究院开发五部算法组，职级C类2.3(中级算法工程师)
 
               职责：
-              * 算法方面，时间序列类统计算法的设计、开发与维护
-              * 工程方面，
+              * 算法方面
+                * 时间序列类统计算法的设计、开发与维护
+                * 量化风控系统基础算法库的设计、开发与维护
+                * 其他业务相关算法的开发与维护
+              * 工程方面
+                * 金融数据PythonSDK的设计、开发与维护
 
+              项目：
 
-
+              * 算法方面
+                * 股票风控评分系统 [Scoop(包括宏观情绪指数评分算法模块、微观事件评分算法模块、微观量价评分算法模块、宏观周期指数评分算法模块)]
+                * 新闻舆情系统 [RedScraps(包括主题抽取算法模块、主题公司关联算法模块)]
+                * 因子自动挖掘系统 [AlphaFinder(包括底层 DAG 运行调度工程模块 Cuber、因子自动组合选择算法模块)]
     design:
       columns: '2'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'OpenSource&shy;Projects' # 'Accomplish&shy;ments'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -128,29 +136,29 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://github.com/redblue0216/Drip
           date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          date_start: '2022-09-01'
+          description: 'Drip是一个轻量的生产级算法全生命周期管理工具，覆盖从算法实验、算法运行前管理、算法运行时管理到算法运行后管理的全生命周期。Drip的核心概念包括信息管理、存储管理、日志管理、调度管理、特征管理、数据通道和插件管理。'
+          organization: Individual open source project
+          organization_url: https://github.com/redblue0216/Drip
+          title: Drip-轻量级算法管理平台
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://github.com/redblue0216/Cuber
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_start: '2017-09-01'
+          description: 'cuber是一个集成学习框架，主要用于各种集成学习算法的开发，具有灵活动态可配置的特点。cuber主要由三大模块组成，控制引擎、计算引擎和调度引擎。控制引擎依托于networkx的有向无环图技术，需要以计算引擎和调度引擎为基础，运行时加载。计算引擎支持Ray,Dask；调度引擎支持Kahn算法。'
+          organization: Individual open source project
+          organization_url: https://github.com/redblue0216/Cuber
+          title: Cuber-分布式集成学习框架
+          url: ''
+        - certificate_url: https://github.com/redblue0216/FirstMatrixC
+          date_end: ''
+          date_start: '2015-09-01'
+          description: 'FirstMatrixC是一个基于C语言实现的矩阵计算库，主要功能包括矩阵基本运算、矩阵分解运算、矩阵变换运算和矩阵特殊运算，主要技术包括二级架构的模块化编程、动态内存管理、条件编译、防御性编程和新建矩阵数据结构。'
+          organization: Individual open source project
+          organization_url: https://github.com/redblue0216/FirstMatrixC
+          title: 'FirstMatrixC-C语言矩阵计算库'
           url: ''
     design:
       columns: '2'
@@ -181,6 +189,20 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+  - block: collection
+    content:
+      title: Quick to post
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering posts](./post/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - post
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
   - block: portfolio
     id: projects
     content:
@@ -196,26 +218,32 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        - name: All
+        - name: 全部
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: 数学
+          tag: mathematics
+        - name: 概率统计
+          tag: proability_statistics
+        - name: 计算机
+          tag: computer_science
+        - name: 机器学习
+          tag: machine_learning
+        - name: 其他
+          tag: Other
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: Life
+  #     subtitle: ''
+  #     text: |-
+  #       {{< gallery album="life" >}}
+  #   design:
+  #     columns: '1'
   - block: collection
     id: featured
     content:
@@ -229,7 +257,7 @@ sections:
       view: card
   - block: collection
     content:
-      title: Recent Publications
+      title: Quick to Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -251,56 +279,55 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  # - block: tag_cloud
+  #   content:
+  #     title: Popular Topics
+  #   design:
+  #     columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        The following contact information can be used for business cooperation. For non-business cooperation, please move to my personal community.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: 15021408795@163.com
+      phone: +86 15021408795
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        street: Lane 19,Hongcao Road,Xuhui District
+        city: Shanghai
+        region: Shanghai
+        postcode: '200000'
+        country: China
+        country_code: CN
+      directions: Enter Building 24 and take the elevator to Room 1602 on Floor 16.
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'Monday to Friday,09:00-12:00 & 13:00-18:00'
       contact_links:
-        - icon: twitter
+        - icon: weixin
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
+          name: WeChat Me
+          link: 'https://weixin.qq.com/'
+        - icon: qq
           icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
+          name: QQ Me
+          link: 'https://im.qq.com/index/'
         - icon: video
           icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          name: BiliBili Me
+          link: 'https://www.bilibili.com/'
+      # # Automatically link email and phone or display as text?
+      # autolink: true
+      # # Email form provider
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
