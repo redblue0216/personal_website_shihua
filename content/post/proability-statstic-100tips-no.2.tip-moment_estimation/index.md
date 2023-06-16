@@ -8,10 +8,10 @@ summary: 这是一本概率统计进阶版本的知识点理解书籍，此次�
 projects: []
 
 # Date published
-date: '2023-05-18T00:00:00Z'
+date: '2023-06-18T00:00:00Z'
 
 # Date updated
-lastmod: '2023-05-18T00:00:00Z'
+lastmod: '2023-06-18T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
