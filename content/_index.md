@@ -76,7 +76,7 @@ sections:
           company_logo: org-bm
           location: 上海，合肥
           date_start: '2021-03-01'
-          date_end: '至今'
+          date_end: '2025-01-01'
           description: |2-
               岗位：
 
