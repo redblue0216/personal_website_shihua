@@ -70,30 +70,32 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: 高级算法工程师
-          company: 平衡机器科技（深圳）有限公司
+        - title: 中级算法工程师
+          company: 阳光电源（上海）有限公司
           company_url: 'https://www.zavvagp.com/official/home'
           company_logo: org-bm
-          location: 上海，深圳
-          date_start: '2020-03-01'
-          date_end: '2022-12-02'
+          location: 上海，合肥
+          date_start: '2021-03-01'
+          date_end: '至今'
           description: |2-
               岗位：
 
               * 隶属算法组，职级L4(算法组组长)
 
               职责：
-              * 工程方面，算法全生命周期套装Seed的设计、开发
-              * 算法方面，综合能源管理、低碳管理等主要业务相关算法的设计与开发
+              * 工程方面，算法全生命周期套装Seed的设计、开发，气象数据平台MeteoCube设计、开发
+              * 算法方面，综合能源管理、低碳管理、异常事件下户用智能调度等主要业务相关算法的设计与开发
 
               项目：
 
               * 工程方面
-                * 算法全生命周期套装Seed
+                * 算法全生命周期套装Seed [包括算法数据交互工具Armor、算法开发平台Virtue、算法资源管理平台Nadleeh、算法统一回放平台、算法库平台Veda、算法运行时工具Throne]
+                * 气象数据平台MeteoCube [包括气象存储模块、气象处理模块和气象服务模块]
               * 算法方面
                 * 综合能源管理系统 [Balengy(包括功率预测算法模块、负荷预测算法模块、虚拟电厂算法模块、电力交易算法模块、气象预报算法模块)]
                 * 低碳管理系统 [NeutralC(包括交通流模拟算法模块、碳排放计算模块)]
-                * 其他非重点项目 [(包括用电客户画像系统、BI 系统、气象减排系统)]
+                * 户用能源管理系统 [iHomemanager-HIS(包括功率预测模块、负荷预测模块、极端天气预测模块、电价预测模块、储能优化调度模块)]
+                * 其他非重点项目 [(包括用电客户画像系统、BI 系统、气象减排系统、大型光储制氢仿真系统)]
 
         - title: 中级算法工程师
           company: 平安科技有限公司
@@ -101,7 +103,7 @@ sections:
           company_logo: org-pa
           location: 上海，深圳
           date_start: '2017-09-01'
-          date_end: '2020-02-28'
+          date_end: '2021-02-28'
           description: |2-
               岗位：
 
@@ -138,7 +140,7 @@ sections:
       items:
         - certificate_url: https://github.com/redblue0216/Drip
           date_end: ''
-          date_start: '2022-09-01'
+          date_start: '2021-03-01'
           description: 'Drip是一个轻量的生产级算法全生命周期管理工具，覆盖从算法实验、算法运行前管理、算法运行时管理到算法运行后管理的全生命周期。Drip的核心概念包括信息管理、存储管理、日志管理、调度管理、特征管理、数据通道和插件管理。'
           organization: Individual open source project
           organization_url: https://github.com/redblue0216/Drip
@@ -154,12 +156,28 @@ sections:
           url: ''
         - certificate_url: https://github.com/redblue0216/FirstMatrixC
           date_end: ''
-          date_start: '2015-09-01'
+          date_start: '2023-06-01'
           description: 'FirstMatrixC是一个基于C语言实现的矩阵计算库，主要功能包括矩阵基本运算、矩阵分解运算、矩阵变换运算和矩阵特殊运算，主要技术包括二级架构的模块化编程、动态内存管理、条件编译、防御性编程和新建矩阵数据结构。'
           organization: Individual open source project
           organization_url: https://github.com/redblue0216/FirstMatrixC
           title: 'FirstMatrixC-C语言矩阵计算库'
           url: ''
+        - certificate_url: https://github.com/redblue0216/Seaflow
+          date_end: ''
+          date_start: '2023-06-01'
+          description: 'SeaWave 是一个基于 JAX 实现的时间序列库，工程方面包括算子编排SeaFlow、具体算子SeaWater、序列化SeaWind、缓存管理SeaBottle、格式化输出SeaFront；算法方面一期包括单变量线性正态分布、经典模型库。目前已完成SeaFlow设计、开发，其他模块正在设计、开发中。'
+          organization: Individual open source project
+          organization_url: https://github.com/redblue0216/Seaflow
+          title: 'SeaWave-Python时间序列库'
+          url: ''
+        - certificate_url: https://github.com/redblue0216/meteocube
+          date_end: ''
+          date_start: '2024-06-01'
+          description: 'MeteoCube是一个气象数据服务项目，主要功能包括气象数据源同步、气象数据处理、气象数据独立服务等；主要技术栈包括eccodes、zarr、gin、vue。'
+          organization: Individual open source project
+          organization_url: https://github.com/redblue0216/meteocube
+          title: 'Meteocube-气象数据服务'
+          url: ''                    
     design:
       columns: '2'
   - block: collection
