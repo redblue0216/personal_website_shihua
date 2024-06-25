@@ -72,15 +72,15 @@ sections:
       items:
         - title: 中级算法工程师
           company: 阳光电源（上海）有限公司
-          company_url: 'https://www.zavvagp.com/official/home'
-          company_logo: org-bm
+          company_url: 'https://www.sungrowpower.com/'
+          company_logo: org-sungrow
           location: 上海，合肥
           date_start: '2021-03-01'
           date_end: '2025-01-01'
           description: |2-
               岗位：
 
-              * 隶属算法组，职级L4(算法组组长)
+              * 隶属中央研究院-智慧能源数字平台部-系统应用组，职级P类7.3(中级算法工程师)
 
               职责：
               * 工程方面，算法全生命周期套装Seed的设计、开发，气象数据平台MeteoCube设计、开发
