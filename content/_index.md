@@ -73,7 +73,7 @@ sections:
         - title: 中级算法工程师
           company: 阳光电源（上海）有限公司
           company_url: 'https://www.sungrowpower.com/'
-          company_logo: org-sungrow
+          company_logo: org-sg
           location: 上海，合肥
           date_start: '2021-03-01'
           date_end: '2025-01-01'
