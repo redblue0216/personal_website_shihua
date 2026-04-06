@@ -70,7 +70,42 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: 中级算法工程师
+        - title: 高级算法工程师
+          company: 上海数策股份有限公司
+          company_url: 'https://www.mathartsys.com/'
+          company_logo: org-mas
+          location: 上海
+          date_start: '2025-04-01'
+          date_end: '2026-04-09'
+          description: |2-
+              岗位：
+
+              * 隶属算法部，职级P类7(高级算法工程师)
+
+              职责：
+              * 算法方面
+                * 时序算法包MasTS
+                * 回归分析算法包MasFT
+                * 库存管理算法包MasIM
+                * 需求分配算法包MasRA
+                * APS算法包MasOR等主要业务相关算法的设计与开发
+              * 工程方面
+                * 工作流工具MasFlow的设计与开发(工程方面)
+              * 管理方面
+                * 还有算法部门日常管理工作
+
+              项目：
+
+              * 算法方面
+                * 时序算法包[MasTS(包括时序检验模块、时序预处理模块、推理预测模块、时序后处理模块)]
+                * 回归分析算法包[MasFT(包括特征管理模块、回归分析模块)]
+                * 库存管理算法包[MasIM(包括需求计算模块、单级系统模块、多级系统模块)]
+                * 需求分配算法包[MasRA(包括运行时模块，优化实例模块)]
+                * APS算法包[MasOR(包括净需求计算模块、AP模块、AS模块)]
+              * 工程方面
+                * 工作流工具[MasFlow(包括工作流管理模块，运行时集成模块)]
+      
+        - title: 高级算法工程师
           company: 阳光电源（上海）有限公司
           company_url: 'https://www.sungrowpower.com/'
           company_logo: org-sg
@@ -80,11 +115,11 @@ sections:
           description: |2-
               岗位：
 
-              * 隶属中央研究院-智慧能源数字平台部-系统应用组，职级P类7.3(中级算法工程师)
+              * 隶属中央研究院-智慧能源数字平台部-系统应用组，职级P类8.1(高级算法工程师)
 
               职责：
               * 工程方面，后端设计、编码、测试：算法全生命周期套装Seed的设计、开发，气象数据平台MeteoCube设计、开发
-              * 算法方面，算法设计、编码、测试：综合能源管理、低碳管理、异常事件下户用智能调度等主要业务相关算法的设计与开发
+              * 算法方面，算法设计、编码、测试：综合能源管理Balengy、低碳管理NeutralC、异常事件下户用智能调度iHomemanager等主要业务相关算法的设计与开发
               * 运维方面，上海部门服务器运维
 
               项目：
@@ -96,7 +131,7 @@ sections:
                 * 综合能源管理系统 [Balengy(包括功率预测算法模块、负荷预测算法模块、虚拟电厂算法模块、电力交易算法模块、气象预报算法模块)]
                 * 低碳管理系统 [NeutralC(包括交通流模拟算法模块、碳排放计算模块)]
                 * 户用能源管理系统 [iHomemanager-HIS(包括功率预测模块、负荷预测模块、极端天气预测模块、电价预测模块、储能优化调度模块)]
-                * 其他非重点项目 [(包括用电客户画像系统、BI 系统、气象减排系统、大型光储制氢仿真系统)]
+                * 其他非重点项目 [(包括用电客户画像系统、BI 系统、成都气象减排系统、大型光储制氢仿真系统)]
 
         - title: 中级算法工程师
           company: 平安科技有限公司
