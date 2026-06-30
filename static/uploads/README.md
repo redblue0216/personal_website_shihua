@@ -1,2 +1,2 @@
 # Resume cv
-- version: 20260408
+- version: 20260630
